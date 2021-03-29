@@ -156,6 +156,11 @@ summary {
   display: list-item;
 }
 
+.container {
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
