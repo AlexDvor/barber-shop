@@ -582,4 +582,15 @@ img {
   color: var(--title-text-color);
   margin-bottom: 44px;
 }
+
+.master-cards___thumb {
+  width: 418px;
+  height: 346px;
+  overflow: hidden;
+}
+
+.master-cards___img {
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=main.css.map */
