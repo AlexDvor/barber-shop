@@ -434,6 +434,23 @@ h3 {
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__pretitle::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
 }
 
 .advantages__title {

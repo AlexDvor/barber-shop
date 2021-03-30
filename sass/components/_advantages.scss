@@ -11,6 +11,18 @@
   color: var(--title-text-color);
 
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: black;
+
+    display: flex;
+    margin-right: 20px;
+  }
 }
 
 .advantages__title {
