@@ -1,0 +1,39 @@
+.price {
+  padding: 84px 0px;
+  color: var(--grey-text-color);
+  background-color: black;
+}
+
+.price__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--grey60-text-color);
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: var(--grey60-text-color);
+
+    display: flex;
+    margin-right: 20px;
+  }
+}
+
+.price__title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--white-text-color);
+
+  margin-bottom: 24px;
+}
