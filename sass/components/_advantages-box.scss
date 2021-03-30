@@ -1,12 +1,25 @@
 .advantages-box {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+// .advantages-box__list:first-child {
+//   margin-right: 30px;
+// }
+
+// .advantages-box__list:last-child {
+//   margin-top: 30px;
+// }
 
 .advantages-box__item {
   width: 193px;
-  padding: 20px 36px;
-  // margin-bottom: 30px;
+  padding: 20px 32px;
   background-color: #f7f7f7;
+
+  &:first-child {
+    margin-bottom: 30px;
+  }
 }
 
 .advantages-box__pretitle {
