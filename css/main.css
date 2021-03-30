@@ -416,4 +416,9 @@ h3 {
   color: var(--white-text-color);
   margin-bottom: 24px;
 }
+
+.table-wrapper {
+  padding: 30px;
+  background-color: #242323;
+}
 /*# sourceMappingURL=main.css.map */
