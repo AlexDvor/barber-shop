@@ -187,6 +187,12 @@ h3 {
   padding: 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -534,5 +540,46 @@ h3 {
 .advantages-box__plus {
   font-weight: 600;
   color: var(--border-color);
+}
+
+.masters {
+  padding: 84px 0px;
+}
+
+.masters__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.masters__pretitle::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+.masters__title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--title-text-color);
+  margin-bottom: 44px;
 }
 /*# sourceMappingURL=main.css.map */
