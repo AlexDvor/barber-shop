@@ -17,7 +17,8 @@
         "../sass/components/_table-wrapper.scss",
         "../sass/components/_advantages.scss",
         "../sass/components/_advantages-box.scss",
-        "../sass/components/_masters.scss"
+        "../sass/components/_masters.scss",
+        "../sass/components/_masters-cards.scss"
     ],
     "names": [],
     "file": "main.css"
