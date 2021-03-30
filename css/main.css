@@ -163,6 +163,7 @@ summary {
 
 a {
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 li {
@@ -348,5 +349,28 @@ h3 {
   line-height: 1.85;
   letter-spacing: 0.02em;
   color: var(--content-text-color);
+  margin-bottom: 40px;
+}
+
+.about-us__link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
 }
 /*# sourceMappingURL=main.css.map */
