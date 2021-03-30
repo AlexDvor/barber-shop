@@ -474,7 +474,8 @@ h3 {
 
 .advantages-list__item {
   width: 193px;
-  height: 133px;
+  padding: 20px 36px;
+  margin-bottom: 30px;
   background-color: #f7f7f7;
 }
 
@@ -494,5 +495,10 @@ h3 {
   line-height: 1.36;
   text-align: center;
   color: var(--title-text-color);
+}
+
+.advantages-list__plus {
+  font-weight: 600;
+  color: var(--border-color);
 }
 /*# sourceMappingURL=main.css.map */
