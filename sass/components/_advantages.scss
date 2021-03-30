@@ -1,0 +1,35 @@
+.advantages {
+  padding: 84px 0px;
+}
+
+.advantages__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+
+  margin-bottom: 20px;
+}
+
+.advantages__title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--title-text-color);
+
+  margin-bottom: 20px;
+}
+
+.advantages__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: var(--content-text-color);
+
+  margin-bottom: 44px;
+}
