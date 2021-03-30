@@ -176,7 +176,6 @@ ul {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: black;
 }
 
 p,
@@ -209,6 +208,10 @@ h3 {
   --content-text-color: #555555;
   --primary-font: 'Open Sans', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
+}
+
+.header {
+  background-color: black;
 }
 
 .header-nav {
@@ -246,7 +249,9 @@ h3 {
 
 .hero {
   padding-top: 112px;
+  padding-bottom: 183px;
   color: var(--white-text-color);
+  background-color: black;
 }
 
 .hero__pretitle {

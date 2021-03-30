@@ -5,8 +5,10 @@
 @import 'utils/root';
 
 // header
-@import 'components/header/header';
-@import 'components/header/mobile-menu';
-@import 'components/header/logo';
+@import 'components/header';
+@import 'components/mobile-menu';
+@import 'components/logo';
 // hero
-@import 'components/hero/hero';
+@import 'components/hero';
+//AboutUS
+@import 'components/about-us';
