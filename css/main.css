@@ -177,6 +177,7 @@ ul {
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: black;
+  color: white;
 }
 
 .visually-hidden {
@@ -191,6 +192,12 @@ body {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+:root {
+  --white-text-color: #ffffff;
+  --grey-text-color: #9da4bd;
+  --grey60-text-color: rgba(157, 164, 189, 0.6);
 }
 
 .header-nav {

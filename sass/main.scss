@@ -2,7 +2,10 @@
 @import 'utils/container';
 @import 'utils/base';
 @import 'utils/visually-hidden';
-// Header
+@import 'utils/root';
+
+// header
 @import 'components/header/header';
 @import 'components/header/mobile-menu';
 @import 'components/header/logo';
+// hero
