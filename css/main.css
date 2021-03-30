@@ -214,6 +214,7 @@ img {
   --grey60-text-color: rgba(157, 164, 189, 0.6);
   --title-text-color: #303030;
   --content-text-color: #555555;
+  --decor-text-color: #ff6c00;
   --primary-font: 'Open Sans', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --border-color: #ff6c00;
@@ -595,5 +596,24 @@ img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.master-cards___title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  margin-bottom: 8px;
+}
+
+.master-cards___subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--decor-text-color);
 }
 /*# sourceMappingURL=main.css.map */
