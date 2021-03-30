@@ -483,10 +483,30 @@ h3 {
       flex-wrap: wrap;
 }
 
+@media screen and (min-width: 450px) {
+  .advantages-box__list:first-child {
+    margin-right: 30px;
+  }
+}
+
+.advantages-box__list:last-child {
+  margin-top: 30px;
+}
+
 .advantages-box__item {
-  width: 193px;
+  width: 210px;
+  height: 133px;
   padding: 20px 32px;
   background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .advantages-box__item:first-child {
