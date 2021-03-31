@@ -10,11 +10,15 @@
   object-fit: cover;
 }
 
+.master-cards-contents {
+  padding: 30px 112px;
+  text-align: center;
+}
+
 .master-cards-contents___title {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.38;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 
@@ -25,16 +29,27 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.35;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--decor-text-color);
+
+  margin-bottom: 30px;
 }
 
 .master-cards-contents__social {
+  display: flex;
+  justify-content: center;
 }
 
-.master-cards-contents__list {
+.master-cards-contents__list:not(:last-child) {
+  margin-right: 10px;
 }
 
 .master-cards-contents__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: tomato;
 }
