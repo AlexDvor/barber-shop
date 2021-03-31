@@ -544,11 +544,11 @@ img {
   color: var(--border-color);
 }
 
-.masters {
+.master {
   padding: 84px 0px;
 }
 
-.masters__pretitle {
+.master__pretitle {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -564,7 +564,7 @@ img {
           align-items: center;
 }
 
-.masters__pretitle::before {
+.master__pretitle::before {
   content: '';
   width: 60px;
   height: 1px;
@@ -575,7 +575,7 @@ img {
   margin-right: 20px;
 }
 
-.masters__title {
+.master__title {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 42px;
@@ -598,7 +598,7 @@ img {
      object-fit: cover;
 }
 
-.master-cards___title {
+.master-cards-contents___title {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.38;
@@ -608,7 +608,7 @@ img {
   margin-bottom: 8px;
 }
 
-.master-cards___subtitle {
+.master-cards-contents___subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.35;
