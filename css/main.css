@@ -219,6 +219,8 @@ img {
   --primary-font: 'Open Sans', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --border-color: #ff6c00;
+  --background-color: #f7f7f7;
+  --secondary-background-color: #ffffff;
 }
 
 .header {
@@ -547,6 +549,7 @@ img {
 
 .master {
   padding: 84px 0px;
+  background-color: var(--background-color);
 }
 
 .master__pretitle {
@@ -584,6 +587,10 @@ img {
   letter-spacing: 0.05em;
   color: var(--title-text-color);
   margin-bottom: 44px;
+}
+
+.master-cards___item:not(:last-child) {
+  margin-bottom: 64px;
 }
 
 .master-cards___thumb {
@@ -648,6 +655,6 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: var(--secondary-background-color);
 }
 /*# sourceMappingURL=main.css.map */

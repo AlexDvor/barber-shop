@@ -1,3 +1,7 @@
+.master-cards___item:not(:last-child) {
+  margin-bottom: 64px;
+}
+
 .master-cards___thumb {
   max-width: 450px;
   height: 346px;
@@ -51,5 +55,5 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: var(--secondary-background-color);
 }
