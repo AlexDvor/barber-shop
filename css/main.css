@@ -721,4 +721,8 @@ img {
   color: var(--white-text-color);
   margin-bottom: 44px;
 }
+
+.sign-up__input:not(:last-child) {
+  margin-bottom: 44px;
+}
 /*# sourceMappingURL=main.css.map */
