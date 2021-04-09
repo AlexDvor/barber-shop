@@ -2,23 +2,29 @@
 }
 
 .sign-up__input {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-color-form);
+
   width: 100%;
   height: 24px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid var(--border-color-form);
   margin-bottom: 44px;
-
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 15px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-color-form);
 }
 
 .sign-up__textarea {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-color-form);
+
   width: 100%;
   height: 76px;
   resize: none;
@@ -34,14 +40,15 @@
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: var(--white-text-color);
+  margin: 0px auto;
 
   display: flex;
   justify-content: center;
   align-items: center;
   width: 160px;
   height: 40px;
-  border: 1px solid var(--border-color-form);
+  border: 1px solid var(--border-color-accent);
   border-radius: 25px;
   background-color: transparent;
 }
