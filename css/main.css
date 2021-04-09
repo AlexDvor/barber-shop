@@ -159,7 +159,7 @@ summary {
 .container {
   padding: 0px 31px;
   margin: 0 auto;
-  max-width: 320px;
+  max-width: 450px;
 }
 
 a {
@@ -611,7 +611,7 @@ img {
 }
 
 .master-cards-contents {
-  padding: 30px 112px;
+  padding: 30px 0px;
   text-align: center;
 }
 
@@ -860,6 +860,8 @@ img {
 
 .footer {
   padding: 56px 0px;
+  max-width: 350px;
+  margin: 0px auto;
 }
 
 .container--center {
