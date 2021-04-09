@@ -21,7 +21,8 @@
         "../sass/components/_masters-cards.scss",
         "../sass/components/_portfolio.scss",
         "../sass/components/_contacts.scss",
-        "../sass/components/_sign-up.scss"
+        "../sass/components/_sign-up.scss",
+        "../sass/components/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
