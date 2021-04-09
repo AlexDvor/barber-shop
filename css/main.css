@@ -157,7 +157,7 @@ summary {
 }
 
 .container {
-  padding: 0px 15px;
+  padding: 0px 31px;
   margin: 0 auto;
   max-width: 480px;
 }
@@ -221,6 +221,7 @@ img {
   --border-color: #ff6c00;
   --background-color: #f7f7f7;
   --secondary-background-color: #ffffff;
+  --accent-color-btn: #ff6c00;
 }
 
 .header {
@@ -656,5 +657,10 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--secondary-background-color);
+}
+
+.master-cards-contents__link:hover .master-cards-contents__icon,
+.master-cards-contents__link:focus .master-cards-contents__icon {
+  fill: var(--accent-color-btn);
 }
 /*# sourceMappingURL=main.css.map */
