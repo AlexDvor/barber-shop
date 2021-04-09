@@ -221,6 +221,7 @@ img {
   --border-color: #ff6c00;
   --background-color: #f7f7f7;
   --secondary-background-color: #ffffff;
+  --background-color-contact: #191c26;
   --accent-color-btn: #ff6c00;
 }
 
@@ -703,5 +704,21 @@ img {
   max-width: 418px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.contacts {
+  background-color: var(--background-color-contact);
+  padding: 84px 31px;
+}
+
+.contacts__title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--white-text-color);
+  margin-bottom: 44px;
 }
 /*# sourceMappingURL=main.css.map */
