@@ -526,9 +526,9 @@
 
       <section class="contacts">
         <div class="container">
-          <div>
-            <h2 class="contacts__title">Онлайн-запись</h2>
-            <form class="sign-up">
+          <div class="sign-up">
+            <h2 class="sign-up__title">Онлайн-запись</h2>
+            <form class="sign-up__form">
               <input
                 class="sign-up__input"
                 type="text"
@@ -554,41 +554,40 @@
               <button class="sign-up__btn" type="submit">отправить</button>
             </form>
           </div>
+          <div class="address">
+            <h2 class="address__title">Контакты</h2>
+            <address class="address-form">
+              <a class="address-form__link" href="#">
+                <svg class="address-form__icon" width="24px" height="24px">
+                  <use href="./images/icon/symbol-defs.svg#map-pin"></use>
+                </svg>
+                ул. Васильковая, 7А Киев, 08132</a
+              >
+              <a class="address-form__link" href="tel:+380441111111">
+                <svg class="address-form__icon" width="24px" height="24px">
+                  <use href="./images/icon/symbol-defs.svg#phone"></use>
+                </svg>
+                +38044 111 11 11
+              </a>
+              <a
+                class="address-form__link"
+                href="mailto:barbershop@email.com"
+                name="mail"
+              >
+                <svg class="address-form__icon" width="24px" height="24px">
+                  <use href="./images/icon/symbol-defs.svg#mail"></use>
+                </svg>
+                barbershop@gmail.com
+              </a>
+            </address>
+            <h3 class="address__subtitle">время работы</h3>
+            <p class="address__time">Ежедневно с 9:00 до 22:00</p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <h2 class="footer__title">Контакты</h2>
-        <address class="footer-address">
-          <a class="footer-address__link" href="#">
-            <svg class="footer-address__icon" width="24px" height="24px">
-              <use href="./images/icon/symbol-defs.svg#map-pin"></use>
-            </svg>
-            ул. Васильковая, 7А Киев, 08132</a
-          >
-          <a class="footer-address__link" href="tel:+380441111111">
-            <svg class="footer-address__icon" width="24px" height="24px">
-              <use href="./images/icon/symbol-defs.svg#phone"></use>
-            </svg>
-            +38044 111 11 11
-          </a>
-          <a
-            class="footer-address__link"
-            href="mailto:barbershop@email.com"
-            name="mail"
-          >
-            <svg class="footer-address__icon" width="24px" height="24px">
-              <use href="./images/icon/symbol-defs.svg#mail"></use>
-            </svg>
-            barbershop@gmail.com
-          </a>
-        </address>
-        <h3 class="footer__subtitle">время работы</h3>
-        <p>Ежедневно с 9:00 до 22:00</p>
-      </div>
-
       <div class="container">
         <p>&copy; Copyright 2020</p>
         <ul>
