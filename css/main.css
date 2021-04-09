@@ -722,6 +722,11 @@ img {
   margin-bottom: 44px;
 }
 
+.sign-up__input {
+  width: 100%;
+  background-color: transparent;
+}
+
 .sign-up__input:not(:last-child) {
   margin-bottom: 44px;
 }
