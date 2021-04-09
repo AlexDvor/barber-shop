@@ -216,6 +216,7 @@ img {
   --title-text-color: #303030;
   --content-text-color: #555555;
   --decor-text-color: #ff6c00;
+  --text-color-form: rgba(157, 164, 189, 0.4);
   --primary-font: 'Open Sans', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --border-color: #ff6c00;
@@ -223,6 +224,7 @@ img {
   --secondary-background-color: #ffffff;
   --background-color-contact: #191c26;
   --accent-color-btn: #ff6c00;
+  --border-color-form: rgba(157, 164, 189, 0.4);
 }
 
 .header {
@@ -724,10 +726,50 @@ img {
 
 .sign-up__input {
   width: 100%;
+  height: 24px;
   background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-color-form);
+  margin-bottom: 44px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-color-form);
 }
 
-.sign-up__input:not(:last-child) {
+.sign-up__textarea {
+  width: 100%;
+  height: 76px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-color-form);
   margin-bottom: 44px;
+}
+
+.sign-up__btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 40px;
+  border: 1px solid var(--border-color-form);
+  border-radius: 25px;
+  background-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */
