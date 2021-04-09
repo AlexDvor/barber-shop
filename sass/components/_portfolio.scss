@@ -1,0 +1,35 @@
+.portfolio {
+  padding: 84px 0px;
+}
+
+.portfolio__pretitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+
+  margin-bottom: 44px;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: black;
+
+    display: flex;
+    margin-right: 20px;
+  }
+}
+
+.portfolio__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.portfolio-thumb {
+  max-width: 418px;
+  object-fit: cover;
+}
