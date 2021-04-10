@@ -3,6 +3,7 @@
   padding: 0px 30px;
 
   @include for-phone-up {
+    padding: 0px 30px;
   }
 
   @include for-tablet-up {
