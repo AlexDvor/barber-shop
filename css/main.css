@@ -285,6 +285,8 @@ img {
 }
 
 .hero-img {
+  margin: 0px auto;
+  height: 580px;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(/images/background/back_hero_480.jpg);
@@ -297,7 +299,7 @@ img {
 }
 
 .hero {
-  padding-top: 112px;
+  padding-top: 208px;
   padding-bottom: 183px;
   color: var(--white-text-color);
   background-color: black;
