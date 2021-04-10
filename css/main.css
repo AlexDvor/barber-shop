@@ -890,8 +890,46 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/img.jpg);
-  background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/img.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/back_footer_480.jpg);
+  background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/back_footer_480.jpg);
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .background-address {
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/back_footer_960.jpg);
+    background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/back_footer_960.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .background-address {
+    max-width: 1199px;
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/back_footer_768.jpg);
+    background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/back_footer_768.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .background-address {
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/back_footer_1536.jpg);
+    background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/back_footer_1536.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .background-address {
+    max-width: 1600px;
+    height: 600px;
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/back_footer_desctop_625.jpg);
+    background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/back_footer_desctop_625.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .background-address {
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(/images/background/back_footer_desctop_1250.jpg);
+    background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(/images/background/back_footer_desctop_1250.jpg);
+  }
 }
 
 .footer {
