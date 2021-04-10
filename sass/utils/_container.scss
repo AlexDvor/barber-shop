@@ -1,9 +1,9 @@
 .container {
   margin: 0 auto;
-  padding: 0px 30px;
+  padding: 0px 31px;
 
   @include for-phone-up {
-    padding: 0px 30px;
+    padding: 0px 31px;
   }
 
   @include for-tablet-up {
