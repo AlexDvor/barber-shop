@@ -246,7 +246,8 @@ img {
 }
 
 .header {
-  background-color: black;
+  position: absolute;
+  width: 100%;
 }
 
 .header-nav {
@@ -280,6 +281,12 @@ img {
   width: 68.93px;
   height: 55.46px;
   fill: white;
+}
+
+.hero-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/background/back_hero_480.jpg);
 }
 
 .hero {
