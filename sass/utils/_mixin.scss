@@ -19,7 +19,7 @@
   margin-right: 20px;
 }
 
-@mixin font-silo($weight, $size, $lh, $ls, $color) {
+@mixin font($weight, $size, $lh, $ls, $color) {
   @if $weight {
     font-weight: $weight;
   }
