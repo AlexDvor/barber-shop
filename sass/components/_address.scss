@@ -17,11 +17,13 @@
 .address-form__link {
   display: flex;
   align-items: center;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.66;
-  letter-spacing: 0.02em;
-  color: var(--grey-text-color);
+  @include for-phone-small {
+    @include font(400, 14px, 1.66, 0.02em, var(--grey-text-color));
+  }
+
+  @include for-phone-bigger {
+    @include font(400, 18px, 1.66, 0.02em, var(--grey-text-color));
+  }
 
   &:not(:last-child) {
     margin-bottom: 20px;

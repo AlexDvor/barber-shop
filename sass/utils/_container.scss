@@ -3,17 +3,21 @@
 
   @include for-phone-small {
     padding: 0px 20px;
+    width: 320px;
   }
 
   @include for-phone-bigger {
     padding: 0px 31px;
+    width: 480px;
   }
 
   @include for-tablet-up {
     padding: 0px 40px;
+    width: 768px;
   }
 
   @include for-desktop-up {
     padding: 0px 15px;
+    width: 1280px;
   }
 }
