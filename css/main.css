@@ -243,6 +243,7 @@ img {
   --background-color-img: rgba(25, 28, 38, 0.9);
   --border-color-form: rgba(157, 164, 189, 0.4);
   --border-color-accent: #ff6c00;
+  --border-color-pseudo: rgba(157, 164, 189, 0.6);
 }
 
 .header {
@@ -289,6 +290,12 @@ img {
   background-image: url(/images/background/back_hero_480.jpg);
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-img {
+    background-image: url(/images/background/back_hero_960.jpg);
+  }
+}
+
 .hero {
   padding-top: 112px;
   padding-bottom: 183px;
@@ -297,6 +304,12 @@ img {
 }
 
 .hero__pretitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -306,10 +319,21 @@ img {
   margin-bottom: 20px;
 }
 
+.hero__pretitle::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: var(--border-color-pseudo);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
 .hero__title {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 48px;
+  font-size: 43px;
   line-height: 1.16;
   letter-spacing: 0.05em;
   color: var(--white-text-color);

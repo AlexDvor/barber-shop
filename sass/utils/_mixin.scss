@@ -10,11 +10,11 @@
 //   position: $pos;
 // }
 
-@mixin pseudo {
+@mixin pseudo($color: black) {
   content: '';
   width: 60px;
   height: 1px;
-  background-color: black;
+  background-color: $color;
   display: flex;
   margin-right: 20px;
 }

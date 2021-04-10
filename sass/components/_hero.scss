@@ -1,8 +1,16 @@
 .hero-img {
+  // max-width: 480px;
+  // height: 580px;
   background-repeat: no-repeat;
   background-size: cover;
   // background-position: calc(50% + 100px);
   background-image: url(/images/background/back_hero_480.jpg);
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(/images/background/back_hero_960.jpg);
+  }
 }
 
 .hero {
@@ -13,6 +21,8 @@
 }
 
 .hero__pretitle {
+  display: flex;
+  align-items: center;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -21,12 +31,16 @@
   color: var(--grey60-text-color);
 
   margin-bottom: 20px;
+
+  &::before {
+    @include pseudo($color: var(--border-color-pseudo));
+  }
 }
 
 .hero__title {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 48px;
+  font-size: 43px;
   line-height: 1.16;
   letter-spacing: 0.05em;
   color: var(--white-text-color);
