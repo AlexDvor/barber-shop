@@ -41,13 +41,7 @@
   }
 }
 
-@mixin for-phone-small {
-  @media screen and (min-width: 320px) {
-    @content;
-  }
-}
-
-@mixin for-phone-bigger {
+@mixin for-phone-up {
   @media screen and (min-width: 480px) {
     @content;
   }

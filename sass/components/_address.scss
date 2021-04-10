@@ -17,11 +17,9 @@
 .address-form__link {
   display: flex;
   align-items: center;
-  @include for-phone-small {
-    @include font(400, 14px, 1.66, 0.02em, var(--grey-text-color));
-  }
+  @include font(400, 14px, 1.66, 0.02em, var(--grey-text-color));
 
-  @include for-phone-bigger {
+  @include for-phone-up {
     @include font(400, 18px, 1.66, 0.02em, var(--grey-text-color));
   }
 
