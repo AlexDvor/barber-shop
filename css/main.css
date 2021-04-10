@@ -566,7 +566,7 @@ img {
 
 .advantages-box__plus {
   font-weight: 600;
-  color: var(--border-color);
+  color: var(--border-color-accent);
 }
 
 .master {
