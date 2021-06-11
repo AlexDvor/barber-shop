@@ -1,5 +1,10 @@
 .logo__icon {
   width: 68.93px;
   height: 55.46px;
-  fill: white;
+  fill: var(--logo-first-color);
+
+  @include for-tablet-up {
+    fill: var(--logo-second-color);
+    margin-left: -25px;
+  }
 }

@@ -179,6 +179,12 @@ summary {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container-position {
+    padding-left: 130px;
+  }
+}
+
 a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -244,6 +250,8 @@ img {
   --border-color-form: rgba(157, 164, 189, 0.4);
   --border-color-accent: #ff6c00;
   --border-color-pseudo: rgba(157, 164, 189, 0.6);
+  --logo-first-color: white;
+  --logo-second-color: #303030;
 }
 
 .header {
@@ -264,6 +272,12 @@ img {
   padding-top: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
 .mobile-menu__btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,7 +295,14 @@ img {
 .logo__icon {
   width: 68.93px;
   height: 55.46px;
-  fill: white;
+  fill: var(--logo-first-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo__icon {
+    fill: var(--logo-second-color);
+    margin-left: -25px;
+  }
 }
 
 .hero-img {
@@ -289,12 +310,38 @@ img {
   height: 580px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/images/background/back_hero_480.jpg);
+  background-image: url(/images/hero/hero_mobile480.jpg);
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-img {
-    background-image: url(/images/background/back_hero_960.jpg);
+    background-image: url(/images/hero/hero_mobile960.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    background-position: calc(50% + 100px);
+    height: 680px;
+    background-image: url(/images/hero/hero_tablet609.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero-img {
+    background-image: url(/images/hero/hero_tablet1218.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-img {
+    background-image: url(/images/hero/hero_desctop2250.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero-img {
+    background-image: url(/images/hero/hero_desctop3375.jpg);
   }
 }
 
@@ -303,6 +350,12 @@ img {
   padding-bottom: 183px;
   color: var(--white-text-color);
   background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-color: transparent;
+  }
 }
 
 .hero__pretitle {

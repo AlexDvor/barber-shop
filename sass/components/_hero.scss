@@ -1,16 +1,35 @@
 .hero-img {
-  // max-width: 480px;
   margin: 0px auto;
   height: 580px;
   background-repeat: no-repeat;
   background-size: cover;
-  // background-position: calc(50% + 100px);
-  background-image: url(/images/background/back_hero_480.jpg);
+
+  background-image: url(/images/hero/hero_mobile480.jpg);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(/images/background/back_hero_960.jpg);
+    background-image: url(/images/hero/hero_mobile960.jpg);
+  }
+
+  @include for-tablet-up {
+    background-position: calc(50% + 100px);
+    height: 680px;
+    background-image: url(/images/hero/hero_tablet609.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(/images/hero/hero_tablet1218.jpg);
+    }
+  }
+
+  @include for-desktop-up {
+    background-image: url(/images/hero/hero_desctop2250.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(/images/hero/hero_desctop3375.jpg);
+    }
   }
 }
 
@@ -19,6 +38,10 @@
   padding-bottom: 183px;
   color: var(--white-text-color);
   background-color: black;
+
+  @include for-tablet-up {
+    background-color: transparent;
+  }
 }
 
 .hero__pretitle {
