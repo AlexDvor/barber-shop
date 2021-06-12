@@ -181,7 +181,7 @@ summary {
 
 @media screen and (min-width: 768px) {
   .container-position {
-    padding-left: 130px;
+    padding-left: 200px;
   }
 }
 
@@ -266,16 +266,75 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-top: 40px;
+}
+
+.header-nav-list,
+.header-nav-contacts {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
+  .header-nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 54px;
+  }
+  .header-nav-list__link {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.05em;
+    color: var(--white-text-color);
+  }
+  .header-nav-contacts {
+    display: block;
+    margin-left: auto;
+  }
+  .header-nav-contacts__btn {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    background-color: transparent;
+    color: var(--white-text-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 160px;
+    height: 40px;
+    border: 1px solid var(--border-color-accent);
+    border-radius: 25px;
+  }
+  .header-nav-list__item:not(:last-child) {
+    margin-right: 24px;
+  }
+  .header-nav-contacts__phone {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+  }
+}
+
+.mobile-menu {
+  margin-left: auto;
 }
 
 .mobile-menu__btn {
@@ -302,6 +361,12 @@ img {
   .logo__icon {
     fill: var(--logo-second-color);
     margin-left: -25px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo__icon {
+    margin-left: 0px;
   }
 }
 
