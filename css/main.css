@@ -284,6 +284,9 @@ img {
     display: flex;
     margin-left: 54px;
   }
+  .header-nav-list__item:not(:last-child) {
+    margin-right: 24px;
+  }
   .header-nav-list__link {
     font-family: var(--primary-font);
     font-weight: 600;
@@ -317,9 +320,6 @@ img {
     height: 40px;
     border: 1px solid var(--border-color-accent);
     border-radius: 25px;
-  }
-  .header-nav-list__item:not(:last-child) {
-    margin-right: 24px;
   }
   .header-nav-contacts__phone {
     font-family: var(--primary-font);
