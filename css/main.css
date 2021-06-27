@@ -765,6 +765,30 @@ img {
   padding: 84px 0px;
 }
 
+@media screen and (min-width: 1280px) {
+  .advantages {
+    padding: 130px 155px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-advantages-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-content {
+    margin-left: 130px;
+  }
+}
+
 .advantages__pretitle {
   font-weight: 600;
   font-size: 11px;

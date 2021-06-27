@@ -1,5 +1,21 @@
 .advantages {
   padding: 84px 0px;
+  @include for-desktop-up {
+    padding: 130px 155px;
+  }
+}
+
+.container-advantages-flex {
+  @include for-desktop-up {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.advantages-content {
+  @include for-desktop-up {
+    margin-left: 130px;
+  }
 }
 
 .advantages__pretitle {
