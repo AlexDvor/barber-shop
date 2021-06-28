@@ -35,19 +35,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  // margin-top: -30px;
-  // margin-left: -30px;
 }
 
 .portfolio__item {
-  // margin-top: 30px;
-  // margin-left: 30px;
-  // flex-basis: calc((100% / 3 - 30px));
-
-  // @include for-desktop-up {
-  //   flex-basis: calc((100% / 2 - 30px));
-  // }
-
   &:not(:last-child) {
     margin-bottom: 30px;
   }
