@@ -660,13 +660,13 @@ img {
 .about-us__thumb__img-primary {
   width: 330px;
   height: 235px;
-  background-image: url(/images/about_us/aboutus1-tablet@1x.jpg);
+  background-image: url(../images/about_us/aboutus1-tablet@1x.jpg);
   background-size: 330px 235px;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about-us__thumb__img-primary {
-    background-image: url(/images/about_us/aboutus1-tablet@2x.jpg);
+    background-image: url(../images/about_us/aboutus1-tablet@2x.jpg);
   }
 }
 
@@ -674,27 +674,27 @@ img {
   .about-us__thumb__img-primary {
     width: 270px;
     height: 445px;
-    background-image: url(/images/about_us/aboutus1-pc@1x.jpg);
+    background-image: url(../images/about_us/aboutus1-pc@1x.jpg);
     background-size: 270px 445px;
   }
 }
 
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .about-us__thumb__img-primary {
-    background-image: url(/images/about_us/aboutus1-pc@2x.jpg);
+    background-image: url(../images/about_us/aboutus1-pc@2x.jpg);
   }
 }
 
 .about-us__thumb__img-secondary {
   width: 330px;
   height: 235px;
-  background-image: url(/images/about_us/aboutus2-tablet@1x.jpg);
+  background-image: url(../images/about_us/aboutus2-tablet@1x.jpg);
   background-size: 330px 235px;
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .about-us__thumb__img-secondary {
-    background-image: url(/images/about_us/aboutus2-tablet@2x.jpg);
+    background-image: url(../images/about_us/aboutus2-tablet@2x.jpg);
   }
 }
 
@@ -702,14 +702,14 @@ img {
   .about-us__thumb__img-secondary {
     width: 270px;
     height: 445px;
-    background-image: url(/images/about_us/aboutus2-pc@1x.jpg);
+    background-image: url(../images/about_us/aboutus2-pc@1x.jpg);
     background-size: 270px 445px;
   }
 }
 
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .about-us__thumb__img-secondary {
-    background-image: url(/images/about_us/aboutus2-pc@2x.jpg);
+    background-image: url(../images/about_us/aboutus2-pc@2x.jpg);
   }
 }
 
