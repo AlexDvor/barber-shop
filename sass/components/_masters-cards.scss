@@ -5,12 +5,10 @@
 
   @include for-tablet-up {
     max-width: 450px;
-    height: 346px;
   }
 
   @include for-desktop-up {
     max-width: 370px;
-    height: 346px;
   }
 }
 

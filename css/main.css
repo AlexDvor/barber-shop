@@ -937,14 +937,12 @@ img {
 @media screen and (min-width: 768px) {
   .master-cards___thumb {
     max-width: 450px;
-    height: 346px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .master-cards___thumb {
     max-width: 370px;
-    height: 346px;
   }
 }
 
@@ -1099,7 +1097,7 @@ img {
 }
 
 .portfolio__thumb {
-  width: 418px;
+  max-width: 418px;
   height: 360px;
 }
 
