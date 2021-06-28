@@ -382,6 +382,7 @@ img {
     display: -ms-flexbox;
     display: flex;
     margin-right: 0px;
+    margin-left: 0px;
   }
   .header-links__item {
     margin-left: 40px;
@@ -510,6 +511,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-right: 20px;
+  margin-left: 0px;
 }
 
 .hero__title {
@@ -601,6 +603,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-right: 20px;
+  margin-left: 0px;
 }
 
 .about-us__content-title {
@@ -797,6 +800,24 @@ img {
 .table-wrapper {
   padding: 30px;
   background-color: #242323;
+}
+
+.table-wrapper__item {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-text-color);
+  text-align: left;
+  border-collapse: separate;
+}
+
+@media screen and (min-width: 768px) {
+  .table-wrapper__item {
+    font-size: 18px;
+    line-height: 1.66;
+  }
 }
 
 .advantages {

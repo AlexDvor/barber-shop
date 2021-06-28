@@ -10,13 +10,19 @@
 //   position: $pos;
 // }
 
-@mixin pseudo($color: black, $marginRight: 20px) {
+@mixin pseudo(
+  $color: black,
+  $marginRight: 20px,
+  $width: 60px,
+  $marginLeft: 0px
+) {
   content: '';
-  width: 60px;
+  width: $width;
   height: 1px;
   background-color: $color;
   display: flex;
   margin-right: $marginRight;
+  margin-left: $marginLeft;
 }
 
 @mixin font($weight, $size, $lh, $ls, $color) {

@@ -2,3 +2,40 @@
   padding: 30px;
   background-color: rgb(36, 35, 35);
 }
+
+// .table-wrapper__string {
+//   display: flex;
+//   margin-bottom: 20px;
+
+//   // &::after {
+//   //   @include pseudo;
+//   // }
+// }
+
+// .table-wrapper__string-td {
+//   display: flex;
+//   align-items: flex-end;
+//   &::after {
+//     @include pseudo($width: 100px, $marginLeft: 20px);
+//   }
+// }
+
+.table-wrapper__item {
+  font-family: var(--primary-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-text-color);
+  text-align: left;
+  border-collapse: separate;
+
+  @include for-tablet-up {
+    font-size: 18px;
+    line-height: 1.66;
+  }
+}
+
+// .table-wrapper__td-title {
+//   border-bottom: 2px solid tomato;
+// }
