@@ -1123,8 +1123,22 @@ img {
      object-fit: cover;
 }
 
+@media screen and (min-width: 1280px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .background-sign {
   background-color: var(--background-color-contact);
+}
+
+@media screen and (min-width: 1280px) {
+  .background-sign {
+    width: 50%;
+  }
 }
 
 .sign-up {
@@ -1195,6 +1209,12 @@ img {
   border: 1px solid var(--border-color-accent);
   border-radius: 25px;
   background-color: transparent;
+}
+
+@media screen and (min-width: 1280px) {
+  .background-address {
+    width: 50%;
+  }
 }
 
 .address {

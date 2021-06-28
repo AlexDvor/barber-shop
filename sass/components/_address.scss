@@ -1,3 +1,9 @@
+.background-address {
+  @include for-desktop-up {
+    width: 50%;
+  }
+}
+
 .address {
   padding: 84px 0px;
 }

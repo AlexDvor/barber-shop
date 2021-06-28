@@ -1,3 +1,6 @@
 .contacts {
   // background-color: var(--background-color-contact);
+  @include for-desktop-up {
+    display: flex;
+  }
 }
