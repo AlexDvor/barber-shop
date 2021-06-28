@@ -80,7 +80,7 @@
       var(--background-color-img),
       var(--background-color-img)
     ),
-    url(/images/background/back_footer_480.jpg);
+    url(./images/background/back_footer_480.jpg);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -90,7 +90,7 @@
         var(--background-color-img),
         var(--background-color-img)
       ),
-      url(/images/background/back_footer_960.jpg);
+      url(./images/background/back_footer_960.jpg);
   }
 
   @include for-tablet-up {
@@ -100,7 +100,7 @@
         var(--background-color-img),
         var(--background-color-img)
       ),
-      url(/images/background/back_footer_768.jpg);
+      url(./images/background/back_footer_768.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -110,7 +110,7 @@
           var(--background-color-img),
           var(--background-color-img)
         ),
-        url(/images/background/back_footer_1536.jpg);
+        url(./images/background/back_footer_1536.jpg);
     }
   }
 
@@ -122,7 +122,7 @@
         var(--background-color-img),
         var(--background-color-img)
       ),
-      url(/images/background/back_footer_desctop_625.jpg);
+      url(./images/background/back_footer_desctop_625.jpg);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -132,7 +132,7 @@
           var(--background-color-img),
           var(--background-color-img)
         ),
-        url(/images/background/back_footer_desctop_1250.jpg);
+        url(./images/background/back_footer_desctop_1250.jpg);
     }
   }
 }
