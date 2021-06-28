@@ -70,6 +70,11 @@
   color: var(--white-text-color);
 
   margin-bottom: 20px;
+
+  @include for-desktop-up {
+    font-size: 72px;
+    line-height: 1.18;
+  }
 }
 
 .hero__subtitle {
@@ -78,6 +83,10 @@
   line-height: 1.62;
   letter-spacing: 0.02em;
   color: var(--grey-text-color);
+  @include for-desktop-up {
+    font-size: 18px;
+    line-height: 1.66;
+  }
 }
 
 .hero-buttons {

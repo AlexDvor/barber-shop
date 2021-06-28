@@ -42,6 +42,10 @@
     display: flex;
     flex-direction: column;
     margin-left: auto;
+    @include for-desktop-up {
+      flex-direction: row-reverse;
+      align-items: baseline;
+    }
   }
 
   .header-nav-contacts__btn {
@@ -62,6 +66,10 @@
     height: 40px;
     border: 1px solid var(--border-color-accent);
     border-radius: 25px;
+
+    @include for-desktop-up {
+      margin-left: 40px;
+    }
   }
 
   .header-nav-contacts__phone {
