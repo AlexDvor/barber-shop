@@ -4,31 +4,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  background-image: url(/images/hero/hero_mobile480.jpg);
+  background-image: url(../images/hero/hero_mobile480.jpg);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(/images/hero/hero_mobile960.jpg);
+    background-image: url(../images/hero/hero_mobile960.jpg);
   }
 
   @include for-tablet-up {
     background-position: calc(50% + 100px);
     height: 680px;
-    background-image: url(/images/hero/hero_tablet609.jpg);
+    background-image: url(../images/hero/hero_tablet609.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/hero/hero_tablet1218.jpg);
+      background-image: url(../images/hero/hero_tablet1218.jpg);
     }
   }
 
   @include for-desktop-up {
-    background-image: url(/images/hero/hero_desctop2250.jpg);
+    background-image: url(../images/hero/hero_desctop2250.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/hero/hero_desctop3375.jpg);
+      background-image: url(../images/hero/hero_desctop3375.jpg);
     }
   }
 }
