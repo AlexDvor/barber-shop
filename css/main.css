@@ -811,6 +811,7 @@ img {
   color: var(--grey-text-color);
   text-align: left;
   border-collapse: separate;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
