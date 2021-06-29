@@ -263,6 +263,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 40px;
 }
 
@@ -461,6 +464,7 @@ img {
 
 @media screen and (min-width: 1280px) {
   .hero-img {
+    max-width: 2250px;
     background-image: url(../images/hero/hero_desctop2250.jpg);
   }
 }
