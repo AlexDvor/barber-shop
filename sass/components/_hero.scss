@@ -13,7 +13,7 @@
   }
 
   @include for-tablet-up {
-    background-position: calc(50% + 100px);
+    // background-position: calc(50% + 100px);
     height: 680px;
     background-image: url(../images/hero/hero_tablet609.jpg);
     @media (min-device-pixel-ratio: 2),
@@ -39,9 +39,9 @@
   color: var(--white-text-color);
   background-color: black;
 
-  @include for-tablet-up {
-    background-color: transparent;
-  }
+  // @include for-tablet-up {
+  //   background-color: transparent;
+  // }
 }
 
 .hero__pretitle {

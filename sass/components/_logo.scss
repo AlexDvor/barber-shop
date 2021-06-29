@@ -4,7 +4,6 @@
   fill: var(--logo-first-color);
 
   @include for-tablet-up {
-    fill: var(--logo-second-color);
     margin-left: -25px;
   }
 

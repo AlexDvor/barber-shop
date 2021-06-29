@@ -422,7 +422,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .logo__icon {
-    fill: var(--logo-second-color);
     margin-left: -25px;
   }
 }
@@ -449,7 +448,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero-img {
-    background-position: calc(50% + 100px);
     height: 680px;
     background-image: url(../images/hero/hero_tablet609.jpg);
   }
@@ -478,12 +476,6 @@ img {
   padding-bottom: 183px;
   color: var(--white-text-color);
   background-color: black;
-}
-
-@media screen and (min-width: 768px) {
-  .hero {
-    background-color: transparent;
-  }
 }
 
 .hero__pretitle {
@@ -838,6 +830,21 @@ img {
   display: flex;
   margin-right: 20px;
   margin-left: 0px;
+}
+
+.price-background-img {
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(../images/back-price/back-price-mob@2x.jpg);
+  background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(../images/back-price/back-price-mob@2x.jpg);
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .price-background-img {
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-img)), to(var(--background-color-img))), url(../images/back-price/back-price-mob@3x.jpg);
+    background-image: linear-gradient(to right, var(--background-color-img), var(--background-color-img)), url(../images/back-price/back-price-mob@3x.jpg);
+  }
 }
 
 .advantages {
