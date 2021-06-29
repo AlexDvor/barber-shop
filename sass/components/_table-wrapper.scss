@@ -12,6 +12,9 @@
   );
   @include for-desktop-up {
     display: flex;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -33,7 +36,8 @@
 }
 
 .table-wrapper__td-title {
-  // display: flex;
+  display: block;
+  margin-bottom: 20px;
   align-items: baseline;
   text-align: start;
   &::after {

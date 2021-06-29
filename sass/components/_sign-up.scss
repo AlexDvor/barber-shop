@@ -21,6 +21,12 @@
   margin-bottom: 44px;
 }
 
+.sign-up__wrapper {
+  @include for-desktop-up {
+    display: flex;
+  }
+}
+
 .sign-up__input {
   font-weight: 600;
   font-size: 11px;
@@ -35,6 +41,12 @@
   border: none;
   border-bottom: 1px solid var(--border-color-form);
   margin-bottom: 44px;
+
+  @include for-desktop-up {
+    &:last-child {
+      margin-left: 30px;
+    }
+  }
 }
 
 .sign-up__textarea {

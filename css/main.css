@@ -853,6 +853,9 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -876,6 +879,8 @@ img {
 }
 
 .table-wrapper__td-title {
+  display: block;
+  margin-bottom: 20px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -1286,6 +1291,14 @@ img {
   margin-bottom: 44px;
 }
 
+@media screen and (min-width: 1280px) {
+  .sign-up__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .sign-up__input {
   font-weight: 600;
   font-size: 11px;
@@ -1299,6 +1312,12 @@ img {
   border: none;
   border-bottom: 1px solid var(--border-color-form);
   margin-bottom: 44px;
+}
+
+@media screen and (min-width: 1280px) {
+  .sign-up__input:last-child {
+    margin-left: 30px;
+  }
 }
 
 .sign-up__textarea {
@@ -1349,6 +1368,12 @@ img {
 
 .address {
   padding: 84px 0px;
+}
+
+@media screen and (min-width: 1280px) {
+  .address {
+    padding: 100px 130px;
+  }
 }
 
 .address__title {

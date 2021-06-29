@@ -6,6 +6,9 @@
 
 .address {
   padding: 84px 0px;
+  @include for-desktop-up {
+    padding: 100px 130px;
+  }
 }
 
 .address__title {
