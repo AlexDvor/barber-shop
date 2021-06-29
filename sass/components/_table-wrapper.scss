@@ -1,6 +1,11 @@
 .table-wrapper {
   padding: 30px;
-  background-color: rgb(36, 35, 35);
+  // background-color: rgb(36, 35, 35);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(23, 26, 36, 0.2),
+    rgba(194, 199, 216, 0.1)
+  );
 }
 
 .table-wrapper__item {
@@ -26,29 +31,5 @@
   text-align: start;
   &::after {
     @include pseudo($width: 100%, $color: rgba(157, 164, 189, 0.12));
-  }
-}
-
-.price-background-img {
-  margin-left: auto;
-  margin-right: auto;
-  background-size: cover;
-
-  background-image: linear-gradient(
-      to right,
-      var(--background-color-img),
-      var(--background-color-img)
-    ),
-    url(../images/back-price/back-price-mob@2x.jpg);
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: linear-gradient(
-        to right,
-        var(--background-color-img),
-        var(--background-color-img)
-      ),
-      url(../images/back-price/back-price-mob@3x.jpg);
   }
 }
