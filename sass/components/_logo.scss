@@ -4,10 +4,8 @@
   fill: var(--logo-first-color);
 
   @include for-tablet-up {
-    margin-left: -25px;
   }
 
   @include for-desktop-up {
-    margin-left: -41px;
   }
 }

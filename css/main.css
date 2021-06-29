@@ -423,18 +423,6 @@ img {
   fill: var(--logo-first-color);
 }
 
-@media screen and (min-width: 768px) {
-  .logo__icon {
-    margin-left: -25px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .logo__icon {
-    margin-left: -41px;
-  }
-}
-
 .hero-img {
   margin: 0px auto;
   height: 580px;
