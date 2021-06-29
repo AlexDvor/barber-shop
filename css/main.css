@@ -842,6 +842,20 @@ img {
   background-image: linear-gradient(to bottom, rgba(23, 26, 36, 0.3), rgba(194, 199, 216, 0.1));
 }
 
+@media screen and (max-width: 400px) {
+  .table-wrapper {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .table-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .table-wrapper__item {
   font-family: var(--primary-font);
   font-weight: normal;

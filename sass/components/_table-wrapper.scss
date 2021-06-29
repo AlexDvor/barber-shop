@@ -1,10 +1,18 @@
 .table-wrapper {
   padding: 30px;
+
+  @media screen and (max-width: 400px) {
+    padding: 10px;
+  }
+
   background-image: linear-gradient(
     to bottom,
     rgba(23, 26, 36, 0.3),
     rgba(194, 199, 216, 0.1)
   );
+  @include for-desktop-up {
+    display: flex;
+  }
 }
 
 .table-wrapper__item {
