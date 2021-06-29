@@ -25,8 +25,10 @@
     margin-left: 54px;
   }
 
-  .header-nav-list__item:not(:last-child) {
-    margin-right: 24px;
+  .header-nav-list__item {
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
   }
 
   .header-nav-list__link {
@@ -36,6 +38,12 @@
     line-height: 1.33;
     letter-spacing: 0.05em;
     color: var(--white-text-color);
+    @include transition;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color-btn);
+    }
   }
 
   .header-nav-contacts {
@@ -66,6 +74,12 @@
     height: 40px;
     border: 1px solid var(--border-color-accent);
     border-radius: 25px;
+    @include transition($element: background-color);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color-btn);
+    }
 
     @include for-desktop-up {
       margin-left: 40px;
@@ -81,6 +95,12 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--white-text-color);
+    @include transition;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color-btn);
+    }
   }
 
   .header-links {

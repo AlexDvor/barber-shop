@@ -83,4 +83,13 @@
   border: 1px solid var(--border-color-accent);
   border-radius: 25px;
   background-color: transparent;
+
+  @include transition($element: color);
+  @include transition($element: background-color);
+
+  &:hover,
+  &:focus {
+    color: var(--title-text-color);
+    background-color: var(--accent-color-btn);
+  }
 }

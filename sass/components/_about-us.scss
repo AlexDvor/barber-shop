@@ -76,6 +76,15 @@
   height: 40px;
   border: 1px solid var(--border-color-accent);
   border-radius: 25px;
+
+  @include transition($element: color);
+  @include transition($element: background-color);
+
+  &:hover,
+  &:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color-btn);
+  }
 }
 
 .about-us__thumb {
